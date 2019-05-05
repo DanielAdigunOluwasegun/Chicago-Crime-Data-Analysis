@@ -7,7 +7,9 @@ from matplotlib.ticker import StrMethodFormatter
 df = pd.read_csv("data_sets_crime/working_data.csv", encoding='utf-8')
 print(df.shape) 
 print(df.dtypes)
+print(dataset.describe())
 
+print(dataset['Ward'].describe())
 print(df.hist(column='FBI Code'))
 print(df.hist(column='Community Area'))
 print(df.hist(column='Police Districts'))
