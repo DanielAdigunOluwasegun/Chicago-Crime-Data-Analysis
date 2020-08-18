@@ -1,5 +1,5 @@
 # Econ_9000finals
-Final: Chicago crime data
+Finals: Chicago crime data
 The raw data was gotten from https://we.tl/t-9q2e1SRVpR), this dataset represent crime data for the city of Chicago from 2001-to date(with the exemption of sensitive information especially for active cases).
 
 The following steps where carried out using the code in crimes_data_cleaning.py
